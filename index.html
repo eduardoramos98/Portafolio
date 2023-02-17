@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/style/Style.css">
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    <title>Document</title>
+</head>
+
+<body>
+    <!-- Barra de Navegación -->
+    <nav>
+        <h1>Portafolio</h1>
+
+        <ul class="navegacion">
+            <li><a href="#" class="nav-link">Acerca de mi</a></li>
+            <li><a href="#" class="nav-link">Habilidades</a></li>
+            <li><a href="#" class="nav-link">Proyectos</a></li>
+            <li><a href="#" class="nav-link">Contacto</a></li>
+        </ul>
+
+        <button class="menu-hamburgesa" id="menu-hamburgesa">
+            <ion-icon class="barras" name="menu-outline"></ion-icon>
+        </button>
+
+    </nav>
+
+    <!-- Sección Hero  -->
+    <section class="hero" id="about">
+        <img src="/Public/img/747951.jpg" alt="jane-doe" loading="lazy" class="hero-img"></img>
+        <div class="bio animate__animated animate__shaker">
+            <h2 class="bio-titulo">Sobre mi</h2>
+            <p class="bio-text">
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repudiandae obcaecati iure perferendis
+                doloremque maxime? Sit illum sunt officia nisi quidem voluptates, dicta totam distinctio sapiente! Unde
+                eligendi natus totam vel?
+            </p>
+        </div>
+    </section>
+    <!-- Sobre Mí -->
+    <section class="mas-sobre">
+        <h2>Mas sobre mi</h2>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consequuntur, deserunt natus, alias sunt cumque
+            reprehenderit cum laudantium aspernatur illo suscipit distinctio! Iure molestiae expedita cumque minus sunt,
+            illo fuga quidem.</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque fuga soluta tempore aliquam, assumenda saepe
+            iste dolor nobis laudantium rerum ad dolorem fugit in hic?</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora ipsa natus porro enim ex dolorum
+            perspiciatis laudantium, voluptatem sapiente, unde maxime dignissimos minima assumenda libero, delectus
+            iusto ullam ea? Ducimus aspernatur distinctio, deserunt totam tenetur voluptas?</p>
+    </section>
+
+    <!-- Sección Habilidades -->
+    <section class="habilidades" id="habilidades">
+        <h2 class="encabezado-habilidades">Mis mejores habilidades</h2>
+        <div class="contenedor-habilidades">
+            <div class="first-set animate__animated animate__pulse">
+                <img class="icon icon-card" src="/Public/img/download.jfif" alt="">
+                <img class="icon icon-card" src="/Public/img/60402d4566e62967a17f8962.png" alt="">
+                <img class="icon2 icon-card-2"
+                    src="/Public/img/Artistas-mapaches-posan-orgullosos-junto-a-sus-pinturas.jpg" alt="">
+            </div>
+        </div>
+
+    </section>
+    <!-- Sección Proyectos -->
+    <section class="proyectos" id="proyectos">
+        <h2 class="titulo-de-proyecto">Algunos de mis proyectos</h2>
+        <div class="contenedor-de-proyectos">
+            <div class="contenedor-de-proyecto tarjeta-de-proyectos">
+                <img src="/Public/img/Club deportivo.png" alt="" class="img-project">
+                <h3 class="titulo-de-proyecto">Club deportivo</h3>
+                <p class="detalle-de-proyectos">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Necessitatibus
+                    provident nisi minima, facilis earum eveniet officia eligendi impedit odit asperiores blanditiis,
+                    perferendis sint dicta harum a qui laborum alias. Facilis.
+                </p>
+                <a href="#" target="_blank" class="elace-de-proyecto">Ver mas...</a>
+            </div>
+
+            <div class="contenedor-de-proyecto tarjeta-de-proyectos" >
+                <img src="/Public/img/Constancia de vigencia de derechos.png" alt="" class="img-project">
+                <h3 class="titulo-de-proyecto">Imss</h3>
+                <p class="detalle-de-proyectos">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Necessitatibus
+                    provident nisi minima, facilis earum eveniet officia eligendi impedit odit asperiores blanditiis,
+                    perferendis sint dicta harum a qui laborum alias. Facilis.</p>
+                <a href="#" target="_blank" class="elace-de-proyecto">Ver mas...</a>
+            </div>
+
+            <div class="contenedor-de-proyecto tarjeta-de-proyectos">
+                <img src="/Public/img/2.png" alt="" class="img-project">
+                <h3 class="titulo-de-proyecto">Imss 2</h3>
+                <p class="detalle-de-proyectos">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Necessitatibus
+                    provident nisi minima, facilis earum eveniet officia eligendi impedit odit asperiores blanditiis,
+                    perferendis sint dicta harum a qui laborum alias. Facilis.</p>
+                <a href="#" target="_blank" class="elace-de-proyecto">Ver mas...</a>
+            </div>
+
+        </div>
+
+    </section>
+    <!-- Sección Contacto-->
+    <section class="contacto" id="contacto">
+        <h2>Contactame</h2>
+        <div class="formulario-contacto-contenedor">
+            <div class="formulario-contacto">
+                <form action="https://formspree.io/f/mqkopvjz" method="POST">
+                    <div class="conrtrol-formulario">
+                        <label for="name">Nombre</label>
+                        <input type="text" id="name" name="sneder-name" placeholder="Escribe tu nombre" class="input-field" required>                       
+                    </div>
+
+                    <div class="control-formulario">
+                        <label for="email">Correo electronico</label>
+                        <input type="email" id="email" name="sender-email" placeholder="ingresa tu correo electronico" class="input-field" required>
+                    </div>
+                    <div class="control-formulario">
+                        <label for="mensaje">Mensaje</label>
+                        <textarea name="mensaje" id="mensaje" cols="60" rows="10" placeholder="Escribe tu mensaje" class="input-field" required></textarea>.
+                    </div>
+                    <input type="submit" value="Enviar" id="submit-btn" class="submit-btn">
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sección de redes sociales - Fijado a la derecha -->
+    <div class="socials">
+        <a href="#" target="_blank">
+            <img src="" alt="">
+        </a>
+    </div>
+    <!-- Vuelve al comienzo  -->
+
+    <!-- Sección Footer  -->
+</body>
+
+</html>
+
+
+
+
